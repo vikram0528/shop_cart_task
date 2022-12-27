@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+padding:0px;
+margin:0px;
+box-sizing:border-box;	
+}
+.container{
+display: flex;
+	padding-left:15px;
+	padding-right:15px;
+	margin: 0 auto;
+	flex-wrap:wrap; 	
+}
+/* style for header content */
+
+.header{
+width:100%;
+background-color:lightblue;
+border: 2px solid white;
+}
+.head{
+width:50%;	
+padding:25px 0px;	
+text-align:center;
+}
+.head-a{
+text-decoration:none;
+font-family: 'Roboto', sans-serif;
+font-size:30px;
+color:white;	
+}
+.shopbtn{
+width:50%;
+padding:25px 0px;
+text-align:right;	
+}
+#shopicon{
+text-decoration:none;	
+}
+#shopicon i{
+font-size:30px;	
+color:white;	
+} 
+/* style for shop-cart */
+.shopcart{
+background-color:lightblue;		
+}
+
+.maindiv{
+width:100%;
+display:flex;
+height:400px;		
+}
+.ban1{
+width:50%;
+	
+}
+
+
+/* style for shop-cart1 */
+.carts1{
+	width:100%;
+	display:flex;
+}
+.probox{
+padding:10px;
+width:25%;
+}
+.probox2{
+background-color:lightblue;		
+text-align:center;
+}
+.proimg{
+width:100%;	
+height:80%;
+
+}
+.proname{
+margin:0px;
+padding:5px;
+font-family: 'Roboto', sans-serif;
+color:white;
+}
+.proprice{
+color:white;
+font-size:20px;
+}
+
+/* shop cart icon created div style */
+#ctdiv1{
+width:35%;
+border:2px solid white;
+background-color:lightblue;	
+position:absolute;
+top:90px;
+right:0px;
+height:400px;
+text-align:center;
+overflow: auto;
+}
+.head-cart{
+color:white;
+display:inline-block;
+font-size:20px;	
+margin:10px;
+}
+.colsect{
+display:inline-block;
+text-align:left;	
+}
+
+/* product click create cart style */
+
+.ctdiv2{
+width:100%;
+border: 2px solid white;
+display:flex;	
+}
+.ctdiv3{
+width:40%;
+border: 2px solid white;	
+}
+.ctdiv4{
+width:60%;
+border: 2px solid white;	
+}
+.toamt{
+	text-align:right;
+}
+.ctdiv5{
+width:100%;
+border: 2px solid white;
+text-align:left;
+}
+.ctimg{
+	width:100%;
+}
+.ctby{
+	width:40%;
+	color:white;
+	background-color:lightblue;
+	padding:15px;
+	border:2px solid white;
+}
