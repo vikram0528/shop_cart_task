@@ -1,49 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<link rel = "stylesheet" href = "css/style.css">
-<link rel ="stylesheet" href="icon/icofont.min.css">
-</head>
-<body id = "bodycart">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="icon/icofont.min.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <a href="#" class="logo">
+          <ion-icon name="bag-check-outline"></ion-icon> Ecommerce</a
+        >
 
-                         <!-- header section -->
-			
-			<header class = "header">
-				<div class = "container">    
+        <div class="box">
+          <div class="cart-count">0</div>
+          <ion-icon id="cart-icon" name="cart-outline"></ion-icon>
+        </div>
 
-                				
-					<div class = "head">
-						 <a href ="#" class ="head-a">ECOMMERCE WEBSITE</a>
-					  </div>
-					<div class = "shopbtn">
-					   <button id = "shopicon"><i class="icofont-shopping-cart" ></i></button>
-					</div>
-				</div>	
-			</header>
-			
-			      <!-- shop section -->
-				  
-		<section class = "shopcart">
-			<div class = "container">
-		<div class ="maindiv">	
-			
-			<div class = "ban1"></div>
-			<div  id = "ban1" class = "ban1">
-			    
-			</div>
-			</div>
-			</div>
-		</section>	
-		
-		<section class = "shopcart1">
-			<div class = "container">
-			
-			<div id = "carts1" class = "carts1">
-			 
-	        </div>
-			</div>
-		</section>	
-		
-</body>
-<script src = "main.js"></script>
+        <div class="cart">
+          <div class="cart-title">Cart Items</div>
+          <div class="cart-content"></div>
+
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+          </div>
+
+          <button class="btn-buy">Place Order</button>
+          <ion-icon name="close" id="cart-close"></ion-icon>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2 class="title">Shop Cart</h2>
+      <div class="shop-content">
+        <div class="pro-box">
+          <div class="pic">
+            <img src="image/f1.jpg" class="food-img" />
+          </div>
+          <h2 class="food-title">Shirt</h2>
+          <span class="food-price">Rs.400</span>
+          <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+        </div>
+
+        <div class="pro-box">
+          <div class="pic">
+            <img src="image/f2.jpg" class="food-img" />
+          </div>
+          <h2 class="food-title">Pattern Shirt</h2>
+          <span class="food-price">Rs.450</span>
+          <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+        </div>
+
+        <div class="pro-box">
+          <div class="pic">
+            <img src="image/f3.jpg" class="food-img" />
+          </div>
+          <h2 class="food-title">Print Pant</h2>
+          <span class="food-price">Rs.300</span>
+          <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+        </div>
+
+        <div class="pro-box">
+          <div class="pic">
+            <img src="image/f4.jpg" class="food-img" />
+          </div>
+          <div>
+            <h2 class="food-title">Print Shirt</h2>
+            <span class="food-price">Rs.480</span>
+            <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+          </div>
+        </div>
+
+        <div class="pro-box">
+          <div class="pic">
+            <img src="image/f5.jpg" class="food-img" />
+          </div>
+          <h2 class="food-title">T-shirt</h2>
+          <span class="food-price">Rs.400</span>
+          <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+        </div>
+
+        <div class="pro-box">
+          <div class="pic">
+            <img src="image/f6.jpg" class="food-img" />
+          </div>
+          <h2 class="food-title">Top</h2>
+          <span class="food-price">Rs.800</span>
+          <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+        </div>
+
+        <div class="pro-box">
+          <div class="pic">
+            <img src="image/f7.jpg" class="food-img" />
+          </div>
+          <h2 class="food-title">C-shirt</h2>
+          <span class="food-price">Rs.200</span>
+          <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+        </div>
+
+        <div class="pro-box">
+          <div class="pic">
+            <img src="image/f8.jpg" class="food-img" />
+          </div>
+          <h2 class="food-title">Ct-shirt</h2>
+          <span class="food-price">Rs.500</span>
+          <ion-icon class="add-cart" name="cart-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+    <div class="doc"></div>
+  </body>
+  <script src="main.js"></script>
 </html>
